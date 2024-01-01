@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat:wght@300;400;500;600;700&family=Raleway:ital,wght@0,400;0,600;0,700;0,800;1,700&display=swap');
+
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.koishibg {
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.name {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    text-align: center;
+    font-size: 70px;
+    font-family: montserrat;
+    font-weight: 700;
+    display: block;
+    margin: 0 auto;
+    color: white;
+
+}
+
+.short-intro {
+    position: absolute;
+    top: 38%;
+    left: 42%;
+    text-align: center;
+    font-size: 20px;
+    font-family: montserrat;
+    font-weight: 500;
+    display: block;
+    margin: 0 auto;
+    color: white;
+
+}
+
+
+.intro {
+
+
+    color: white;
+    text-align: center;
+
+
+
+}
+
+
+.opening {
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+}
+
+.intro-body {
+    margin: 0 10px;
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 17px;
+
+}
+
+.intro h2 {
+    margin-top: 0;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+p {
+    color: white;
+
+}
+
+.links {
+
+    color: lightgreen;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.linklogo {
+    width: 64px;
+    height: 64px;
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+.linklogo:hover {
+    opacity: 1;
+}
+
+
+.spin {
+    background-color: greenyellow;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 25px solid red;
+    border-top: 20px solid black;
+    animation: ani 2.5s linear infinite;
+
+}
+
+@keyframes ani {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.buttons {
+    width: 60px;
+    transition: 0.5s;
+}
+
+.buttons:hover {
+    opacity: 0.5;
+    width: 100px;
+}
+
+.koishi {
+    width: 150px;
+    height: 150px;
+    float: right;
+    opacity: 0.00514;
+    transition: 5.14s;
+
+}
+
+.koishi:hover {
+    opacity: 1;
+}
+
+p {
+    display: inline-block;
+}
+
+.opentest {
+    width: 500px;
+    height: 0px;
+    overflow: hidden;
+    background-color: green;
+    transition: 0.6s ease-out;
+    text-align: center;
+
+}
+
+.opentest .h1 {
+    font-size: 100px;
+
+}
+
+.fade-in-text div {
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+
+    100% {
+        opacity: 1
+    }
+
+}
+
+section {
+    height: 100vh;
+}
+
+.tag {
+    opacity: 0;
+    transform: translate(0.10vh);
+    transition: all 1s;
+}
+
+.tag.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.info {
+    background-color: black;
+}
+
+.openbutton {
+    padding: 5px;
+}
+
+.social-icons {
+    align-items: baseline
+}
+
+.social-icons a {
+
+
+
+    justify-content: center;
+    align-items: center;
+
+    height: 40px;
+    width: 40px;
+    color: white;
+    margin: 0 10px;
+
+}
+
+.social-icons a:hover {
+    opacity: 0.8;
+}
+
+.social-icons img {
+    width: 45px;
+    height: 45px;
+    color: white;
+
+}
