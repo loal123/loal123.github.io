@@ -76,7 +76,7 @@ body {
 
 }
 
-.intro h2 {
+.info h2 {
     margin-top: 0;
     font-family: Raleway;
     font-weight: 700;
@@ -200,6 +200,8 @@ section {
 
 .info {
     background-color: black;
+    height: 100vh;
+    color: white;
 }
 
 .openbutton {
@@ -232,5 +234,23 @@ section {
     width: 45px;
     height: 45px;
     color: white;
+    vertical-align: top;
 
+}
+
+.projects {
+
+    text-align: center;
+
+
+}
+
+.projects h2 {
+    display: inline-block;
+    align-self: center;
+
+}
+
+hr {
+    width: 100%;
 }
