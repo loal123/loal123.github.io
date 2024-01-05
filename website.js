@@ -1,6 +1,6 @@
 const openbutton = document.querySelector('.openbutton');
 const opentest = document.querySelector('.opentest');
-
+let copytext = "loal123"
 let counter = 0;
 function addNum() {
     counter++;
