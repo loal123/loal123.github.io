@@ -12,3 +12,9 @@ let buttons = document.querySelector('.selected');
 
     }
 });
+document.getElementById('discord').addEventListener('click', () => {
+    const text_to_copy = "loal123";
+    navigator.clipboard.writeText(text_to_copy).then(() => {
+
+    });
+});

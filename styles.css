@@ -10,8 +10,12 @@ body {
 
 }
 
+p {
+    margin: 0px 10px 0px 10px
+}
+
 .sections {
-    gap: 7.27%;
+    gap: 10px;
     justify-content: center;
     align-items: center;
     font-weight: 600;
@@ -19,10 +23,16 @@ body {
     display: none;
 
 
+
 }
+
 
 .section {
     transition: all 300ms;
+    flex-grow: 9999999;
+    flex-shrink: 0;
+    text-align: center;
+
 }
 
 .section:hover {
@@ -46,7 +56,25 @@ body {
 
 .selected {
     display: flex;
+
+
 }
+
+.sections:not(.selected) {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    align-items: end;
+    font-size: 16px;
+    display: flex;
+    box-sizing: border-box;
+    z-index: 9999999999;
+    width: fit-content;
+
+
+
+}
+
 
 
 
@@ -54,4 +82,26 @@ body {
 .logos {
     height: 100px;
     max-width: 100%;
+}
+
+.boxing {
+    background-color: #393a36;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+
+
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px 0px 10px;
+    transition: 300ms;
+}
+
+.icon:hover {
+    opacity: 0.727;
 }
