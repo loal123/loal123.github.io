@@ -36,7 +36,7 @@ p {
 }
 
 .section:hover {
-    filter: brightness(0.727);
+    filter: brightness(0.514);
 
 }
 
@@ -103,5 +103,29 @@ p {
 }
 
 .icon:hover {
-    opacity: 0.727;
+    filter: brightness(0.727)
+}
+
+.header {
+    justify-content: center;
+    text-align: center;
+}
+
+#loal123 {
+
+    display: inline-block;
+
+}
+
+#koishicon {
+    margin-top: 10px;
+    height: 70px;
+    width: 70px;
+    transition: 5.14s;
+    opacity: 0.00514;
+
+}
+
+#koishicon:hover {
+    opacity: 1
 }
