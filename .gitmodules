@@ -1,0 +1,6 @@
+[submodule "personal"]
+	path = personal
+	url = https://github.com/loal123/tetriodata.git
+[submodule "tetriodata"]
+	path = tetriodata
+	url = https://github.com/loal123/tetriodata.git
