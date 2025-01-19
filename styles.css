@@ -84,7 +84,8 @@ p {
     max-width: 100%;
 }
 
-.boxing {
+.boxing,
+.project-box div {
     background-color: #393a36;
     border-radius: 10px;
     justify-content: center;
@@ -128,4 +129,66 @@ p {
 
 #koishicon:hover {
     opacity: 1
+}
+
+.project-box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 80%;
+
+    flex-wrap: wrap;
+
+
+}
+
+.project-box div {
+    border-radius: 10px;
+    height: 150px;
+    max-width: 250px;
+    margin: 10px;
+    border: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
+/* CSS */
+.project-box a {
+    background-color: #4B4D4A;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    display: block;
+    padding: .75rem 0.8rem;
+    margin-top: 10px;
+
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+
+    transition-duration: .2s;
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+    user-select: none;
+
+    touch-action: manipulation;
+
+}
+
+.project-box a:hover {
+    background-color: #374151;
+}
+
+.button-40:focus {
+    box-shadow: none;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
 }
